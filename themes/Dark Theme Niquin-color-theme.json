@@ -386,10 +386,12 @@
                 "variable.other.enummember"
             ],
             "settings": {
-                "foreground": "#4FC1FF"
+                "foreground": "#EBA568", //"#4FC1FF",
+                "fontStyle": "italic",
             }
         },
         {
+            "name": "Object keys, TS grammar specific",
             "scope": [
                 "meta.object-literal.key"
             ],
@@ -398,6 +400,7 @@
             }
         },
         {
+            "name": "CSS property value",
             "scope": [
                 "support.constant.property-value",
                 "support.constant.font-name",
@@ -439,17 +442,17 @@
                 "foreground": "#d4d4d4"
             }
         },
-        {
-            "scope": [
-                "support.type.vendored.property-name",
-                "support.type.property-name",
-                "source.css variable",
-                "source.coffee.embedded"
-            ],
-            "settings": {
-                "foreground": "#9cdcfe"
-            }
-        },
+        // {
+        //     "scope": [
+        //         "support.type.vendored.property-name",
+        //         "support.type.property-name",
+        //         "source.css variable",
+        //         "source.coffee.embedded"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#9cdcfe"
+        //     }
+        // },
         {
             "scope": "keyword.other.unit",
             "settings": {
@@ -457,18 +460,133 @@
             }
         },
 
-        {
-            "scope": "support.function.git-rebase",
-            "settings": {
-                "foreground": "#9cdcfe"
-            }
-        },
+        // {
+        //     "scope": "support.function.git-rebase",
+        //     "settings": {
+        //         "foreground": "#9cdcfe"
+        //     }
+        // },
         {
             "scope": "constant.sha.git-rebase",
             "settings": {
             "foreground": "#b5cea8"
             }
         },
+
+
+        
+        // START HTML
+		{
+			"name": "Text HTML",
+			"scope": [
+                "text.html.cshtml",
+				"text.html.derivative",
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Decorators HTML",
+			"scope": [
+				"punctuation.definition.tag.begin.html",	
+				"punctuation.definition.tag.end.html",
+
+				"meta.tag.structure.div.start.html",
+				"meta.tag.structure.div.end.html",				
+				"punctuation.separator.key-value.html",				
+				// "text.aspnetcorerazor",
+                "punctuation.definition.tag",
+				"punctuation.definition.tag.xml",				
+			],
+			"settings": {
+				"foreground": "#9d989c"
+			}
+		},
+		{
+			"name": "Attributes HTML",
+			"scope": [
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name",
+				
+				"keyword.control.cshtml.transition",
+			],
+			"settings": {
+				"foreground": "#2fa898"
+			}
+		},
+		{
+			"name": "Atributo Quote HTML",
+			"scope": [
+				"punctuation.definition.string.begin.html",	
+				"punctuation.definition.string.end.html",	
+
+				"string.quoted.double.xml",
+				"string.quoted.double.html",
+				"meta.attribute.class.html",
+				"meta.attribute.src.html",
+				"meta.tag.object.img.void.html",
+
+				"invalid.illegal.character-not-allowed-here.html",
+			],
+			"settings": {
+				"foreground": "#ecdc9a",
+			}
+		},
+        {
+            "scope": [
+                "entity.name.tag",
+				"entity.name.tag.localname.xml",
+            ],
+            "settings": {
+                "foreground": "#fa5c94"
+            }
+        },
+		{
+			"name": "Constant HTML",
+			"scope": [
+				"punctuation.definition.entity.html",	
+				"constant.character.entity.named.nbsp.html",
+			],
+			"settings": {
+				"foreground": "#ba74d1"
+			}
+		},
+		// END HTML
+
+
+        
+        // BEGIN JAVASCRIPT
+        {
+			"name": "Terminator Statement",
+			"scope": [
+				"punctuation.accessor.js",
+				"punctuation.separator.key-value.js",
+			],
+			"settings": {
+                "foreground": "#e7a6a6",
+			}
+		},
+        {
+			"name": "Terminator Statement",
+			"scope": [
+				"entity.name.function.js",
+			],
+			"settings": {
+                "foreground": "#95D4C9",
+			}
+		},
+        {
+			"name": "Terminator Statement",
+			"scope": [
+				"support.variable.js",
+			],
+			"settings": {
+                "foreground": "#53B9A7",
+                "fontStyle": "italic",
+			}
+		},
+        // END JAVASCRIPT
 
     ],
     "semanticHighlighting": true,
