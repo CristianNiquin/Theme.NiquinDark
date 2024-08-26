@@ -588,6 +588,191 @@
 		},
         // END JAVASCRIPT
 
+
+        
+        // START PYTHON
+        {
+            "name": "Parameters",
+            "scope": [
+                "punctuation.definition.arguments.begin.python",
+                "punctuation.definition.arguments.end.python",
+                "punctuation.definition.dict.begin.python",
+                "punctuation.definition.dict.end.python",
+                "punctuation.parenthesis.begin.python",
+                "punctuation.parenthesis.end.python",
+                "punctuation.definition.parameters.begin.python",
+                "punctuation.definition.parameters.end.python",
+            ],
+            "settings": {
+                "foreground": "#b9b9b9"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": [
+                "punctuation.section.function.begin.python",
+                "punctuation.section.function.end.python",
+                "punctuation.separator.colon.python",
+                "punctuation.separator.period.python",
+            ],
+            "settings": {
+                "foreground": "#ff9090"
+            }
+        },
+        {
+            "name": "Type Function Instance",
+            "scope": [
+                "support.type.python",
+                "support.function.builtin.python",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#53B9A7"//"#B581C7"
+            }
+        },
+        {
+            "name": "Call Function",
+            "scope": [
+                "meta.function-call.generic.python",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#ecdc9a",
+            }
+        },
+        {
+            "name": "Self",
+            "scope": [
+                "variable.parameter.function.language.special.self.python",
+                "variable.language.special.self.python",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#EBA568"//"#FC548E"
+            }
+        },
+        {
+            "name": "Parameters",
+            "scope": [
+                "variable.parameter.function.language.python",
+            ],
+            "settings": {
+                "foreground": "#9ECCD7"
+            }
+        },
+        {
+            "name": "Multi String",
+            "scope": [
+                "string.quoted.docstring.multi.python",
+            ],
+            "settings": {
+                "foreground": "#797979"
+            }
+        },
+        // END PYTHON
+
+
+
+		// C#		
+		{
+			"name": "Namespaces",
+			"scope": [
+				"entity.name.type.namespace.cs",
+			],
+			"settings": {
+				"foreground": "#DEDEDE"
+			}
+		},
+		{
+			"name": "Function User",
+			"scope": [
+				"entity.name.function.cs",
+			],
+			"settings": {
+				"foreground": "#ecdc9a"//"#e2d680"
+			}
+		},
+		{
+			"name": "Variable User",
+			"scope": [
+				"variable.other.object.property.cs",
+			],
+			"settings": {
+				"foreground": "#95D4C9"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"entity.name.variable.field.cs",
+			],
+			"settings": {
+				"foreground": "#EBA568"
+			}
+		},	
+		{
+			"name": "Caracter CSHTML",
+			"scope": [
+				"keyword.control.cshtml.transition",
+			],
+			"settings": {
+				"foreground": "#B77DB7",
+			}
+		},		
+		{
+			"name": "Variables locales",
+			"scope": [
+				"entity.name.variable.local.cs",
+				"entity.name.variable.parameter.cs",
+				"variable.other.readwrite.cs",
+				"variable.other.object.cs",
+			],
+			"settings": {
+				"foreground": "#DEDEDE",
+			}
+		},		
+		{
+			"name": "Sections",
+			"scope": [
+				"keyword.preprocessor.region.cs",
+				"keyword.preprocessor.endregion.cs",
+				"punctuation.separator.hash.cs",
+				"string.unquoted.preprocessor.message.cs",
+			],
+			"settings": {
+				"foreground": "#868686"
+			}
+		},
+		{
+			"name": "Brackets",
+			"scope": [
+				"punctuation.curlybrace.open.cs",
+				"punctuation.curlybrace.close.cs",
+				"punctuation.parenthesis.open.cs",
+				"punctuation.parenthesis.close.cs",
+				"punctuation.squarebracket.open.cs",
+				"punctuation.squarebracket.close.cs",
+                "punctuation.definition.typeparameters.begin.cs",
+                "punctuation.definition.typeparameters.end.cs",
+
+				"keyword.control.razor.directive.codeblock.open",
+				"keyword.control.razor.directive.codeblock.close",
+			],
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"name": "Operator and Access",
+			"scope": [
+				"punctuation.accessor.cs",				
+			],
+			"settings": {
+				"foreground": "#ff9090"//"#ff9090"//92c42f
+			}
+		},
+		// END C#
+
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
