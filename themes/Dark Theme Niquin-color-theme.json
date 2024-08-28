@@ -773,6 +773,154 @@
 		},
 		// END C#
 
+
+        
+		// START C
+		{
+			"name": "Functions Call CPP",
+			"scope": [
+				"entity.name.function.call.cpp",
+			],
+			"settings": {
+                "fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Brackets",
+			"scope": [
+				"punctuation.section.parens.begin.bracket.round.cpp",
+				"punctuation.section.parens.end.bracket.round.cpp",
+				"punctuation.section.block.begin.bracket.curly.cpp",
+				"punctuation.section.block.end.bracket.curly.cpp",
+				"punctuation.section.block.begin.bracket.curly.function.definition.cpp",
+				"punctuation.section.block.end.bracket.curly.function.definition.cpp",
+				"punctuation.section.parameters.begin.bracket.round.cpp",
+				"punctuation.section.parameters.end.bracket.round.cpp",
+			],
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter.cpp",
+			],
+			"settings": {
+				"foreground": "#9ECCD7"
+			}
+		},
+		{
+			"name": "Includes",
+			"scope": [
+				"keyword.control.directive.include.cpp",
+				"punctuation.definition.directive.cpp",
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp",
+				"string.quoted.other.lt-gt.include.cpp",
+				// "entity.name.function.preprocessor.cpp",
+			],
+			"settings": {
+				"foreground": "#EBA568"
+			}
+		},
+		// END C
+
+
+
+		// START JAVA
+		{
+			"name": "Source Java",
+			"scope": [
+				"storage.modifier.import.java",
+				"storage.type.object.array.java",
+			],
+			"settings": {
+				"foreground": "#DEDEDE"
+			}
+		},
+		{
+			"name": "Function Call",
+			"scope": [
+				"meta.function-call.java",
+				"meta.method-call.java",
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Operator and Access",
+			"scope": [
+				"punctuation.bracket.square.java",
+				"punctuation.separator.period",				
+			],
+			"settings": {
+				"foreground": "#e7a6a6"//92c42f
+			}
+		},
+		{
+			"name": "Class",
+			"scope": [
+				"storage.type.java",
+				"entity.name.type.class.java",
+				"entity.other.inherited-class.java",
+			],
+			"settings": {
+				"foreground": "#53B9A7"
+			}
+		},
+		{
+			"name": "Imports",
+			"scope": [
+				"keyword.other.import.java",
+			],
+			"settings": {
+				"foreground": "#EBA568",
+			}
+		},
+		{
+			"name": "This",
+			"scope": [
+				"variable.language.this.java",
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Primitive",
+			"scope": [
+				"keyword.control.new.java",
+				"storage.type.primitive.java",
+				"storage.type.primitive.array.java",
+			],
+			"settings": {
+				"foreground": "#558CCC"
+			}
+		},
+		{
+			"name": "Type Object",
+			"scope": [
+				"storage.modifier.import.java",
+				"variable.parameter.java",
+				"variable.other.object.java",
+			],
+			"settings": {
+				"foreground": "#9ECCD7"//"#ecdc9a"
+			}
+		},
+		{
+			"name": "Package",
+			"scope": [
+				"storage.modifier.import.java",
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		// END JAVA
+
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
