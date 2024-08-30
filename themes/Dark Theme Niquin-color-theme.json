@@ -603,7 +603,54 @@
         // END JAVASCRIPT
 
 
-        
+       
+        // BEGIN TYPESCRIPT
+        {
+			"name": "Terminator Statement",
+			"scope": [
+				"punctuation.accessor.ts",
+				"punctuation.separator.key-value.ts",
+			],
+			"settings": {
+                "foreground": "#e7a6a6",
+			}
+		},
+        {
+			"name": "Terminator Statement",
+			"scope": [
+				"entity.name.function.ts",
+			],
+			"settings": {
+                "foreground": "#95D4C9",
+			}
+		},
+        {
+			"name": "Terminator Statement",
+			"scope": [
+				"support.variable.ts",
+			],
+			"settings": {
+                "foreground": "#53B9A7",
+                "fontStyle": "italic",
+			}
+		},
+        {
+			"name": "Definition Block",
+			"scope": [
+				"meta.brace.round.ts",
+				"punctuation.definition.block.ts",
+				"punctuation.definition.parameters.begin.ts",
+				"punctuation.definition.parameters.end.ts",
+				"punctuation.definition.binding-pattern.object.ts",
+			],
+			"settings": {
+                "foreground": "#969696",
+			}
+		},
+        // END TYPESCRIPT
+
+
+
         // START PYTHON
         {
             "name": "Parameters",
