@@ -99,9 +99,10 @@
                 "punctuation.definition.begin.bracket.square",
                 "punctuation.definition.end.bracket.square",
                 "punctuation.terminator",
+                "punctuation.separator",
 			],
 			"settings": {
-				"foreground": "#e7a6a6"
+				"foreground": "#e6b0b0"
 			}
 		},
         {   
@@ -376,7 +377,7 @@
                 "constant.other.placeholder",
             ],
             "settings": {
-                "foreground": "#DEDEDE"
+                "foreground": "#E0E0E0"
             }
         },
         {
@@ -586,6 +587,19 @@
                 "fontStyle": "italic",
 			}
 		},
+        {
+			"name": "Definition Block",
+			"scope": [
+				"meta.brace.round.js",
+				"punctuation.definition.block.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
+				"punctuation.definition.binding-pattern.object.js",
+			],
+			"settings": {
+                "foreground": "#969696",
+			}
+		},
         // END JAVASCRIPT
 
 
@@ -669,6 +683,20 @@
                 "foreground": "#797979"
             }
         },
+        {
+            "name": "Parenthesis",
+            "scope": [
+                "punctuation.definition.inheritance.begin.python",
+                "punctuation.definition.inheritance.end.python",
+                "punctuation.definition.arguments.begin.python",
+                "punctuation.definition.arguments.end.python",
+                "punctuation.definition.parameters.begin.python",
+                "punctuation.definition.parameters.end.python",
+            ],
+            "settings": {
+                "foreground": "#969696"
+            }
+        },
         // END PYTHON
 
 
@@ -680,7 +708,7 @@
 				"entity.name.type.namespace.cs",
 			],
 			"settings": {
-				"foreground": "#DEDEDE"
+				"foreground": "#E0E0E0"
 			}
 		},
 		{
@@ -728,7 +756,7 @@
 				"variable.other.object.cs",
 			],
 			"settings": {
-				"foreground": "#DEDEDE",
+				"foreground": "#E0E0E0",
 			}
 		},		
 		{
@@ -769,6 +797,18 @@
 			],
 			"settings": {
 				"foreground": "#ff9090"//"#ff9090"//92c42f
+			}
+		},
+		{
+			"name": "Parenthesis",
+			"scope": [
+				"punctuation.parenthesis.open.cs",				
+				"punctuation.parenthesis.close.cs",				
+				"punctuation.curlybrace.open.cs",				
+				"punctuation.curlybrace.close.cs",				
+			],
+			"settings": {
+				"foreground": "#969696"
 			}
 		},
 		// END C#
@@ -824,6 +864,20 @@
 				"foreground": "#EBA568"
 			}
 		},
+		{
+			"name": "Parenthesis",
+			"scope": [
+				"punctuation.section.block.begin.bracket.curly.cpp",				
+				"punctuation.section.block.end.bracket.curly.cpp",				
+				"punctuation.section.block.begin.bracket.curly.function.definition.cpp",				
+				"punctuation.section.block.end.bracket.curly.function.definition.cpp",				
+				"punctuation.section.arguments.begin.bracket.round.function.call.cpp",				
+				"punctuation.section.arguments.end.bracket.round.function.call.cpp",				
+			],
+			"settings": {
+				"foreground": "#969696"
+			}
+		},
 		// END C
 
 
@@ -836,7 +890,7 @@
 				"storage.type.object.array.java",
 			],
 			"settings": {
-				"foreground": "#DEDEDE"
+				"foreground": "#E0E0E0"
 			}
 		},
 		{
@@ -919,7 +973,49 @@
 				"fontStyle": "italic",
 			}
 		},
+		{
+			"name": "Parenthesis",
+			"scope": [
+				"punctuation.bracket.round.java",				
+				"punctuation.section.method.begin.bracket.curly.java",				
+				"punctuation.section.method.begin.bracket.curly.java",				
+				"punctuation.section.method.end.bracket.curly.java",				
+				"punctuation.definition.parameters.begin.bracket.round.java",				
+				"punctuation.definition.parameters.end.bracket.round.java",	
+                "punctuation.section.block.begin.bracket.curly.java",			
+                "punctuation.section.block.end.bracket.curly.java",			
+			],
+			"settings": {
+				"foreground": "#969696"
+			}
+		},
 		// END JAVA
+
+
+
+		// BEGIN SQL
+		{
+			"name": "Parenthesis",
+			"scope": [
+				"text.variable",
+			],
+			"settings": {
+                "foreground": "#95D4C9",
+			}
+		},
+		{
+			"name": "Package",
+			"scope": [
+				"support.function.ranking.sql",
+				"support.function.datetime.sql",
+				"support.function.aggregate.sql",
+			],
+			"settings": {
+                "foreground": "#FA5C94",
+				"fontStyle": "italic",
+			}
+		},
+		// END SQL
 
     ],
     "semanticHighlighting": true,
