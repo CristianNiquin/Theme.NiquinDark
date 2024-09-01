@@ -1,13 +1,22 @@
 {
   "name": "theme-niquin-dark",
-  "displayName": "Theme-Niquin-Dark",
-  "description": "Dark Theme for VS Code",
+  "displayName": "Theme Niquin Dark",
+  "description": "Dark Theme for VS Code, colors of animes and series",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
   },
+  "keywords": [
+    "style",
+    "niquin",
+    "programming",
+    "languages",
+    "programming languages",
+    "color"
+  ],
   "categories": [
-    "Themes"
+    "Themes",
+    "Programming Languages"
   ],
   "contributes": {
     "themes": [
@@ -17,5 +26,16 @@
         "path": "./themes/Dark Theme Niquin-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "icons/logo.png",
+  "author": {
+    "name": "Cristian Niquin",
+    "email": "cd.niquin@gmail.com",
+    "url": "https://www.linkedin.com/in/cristian-polo-niquin-652418ba/"
+  },
+  "repository": {
+    "url": "https://github.com/CristianNiquin/Theme.NiquinDark",
+    "type": "git"
+  },
+  "publisher": "cd-niquin"
 }
