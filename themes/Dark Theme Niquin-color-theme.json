@@ -546,7 +546,7 @@
 		{
 			"name": "Constant HTML",
 			"scope": [
-				"punctuation.definition.entity.html",	
+				// "punctuation.definition.entity.html",	
 				"constant.character.entity.named.nbsp.html",
 			],
 			"settings": {
